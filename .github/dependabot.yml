@@ -4,8 +4,14 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    labels:
+      - "github-actions"
+      - "dependencies"
 
   - package-ecosystem: "terraform"
     directory: "/"
     schedule:
       interval: "daily"
+    labels:
+      - "terraform"
+      - "dependencies"
