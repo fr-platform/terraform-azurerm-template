@@ -2,7 +2,8 @@
 name: Terraform Docs Update Auto Run
 
 on:
-  workflow_call:
+  push:
+    branches: [ 'main' ]
 
 jobs:
   readme-update:

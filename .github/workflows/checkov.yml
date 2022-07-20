@@ -1,7 +1,8 @@
 name: Checkov Validation
 
 on:
-  workflow_call:
+  push:
+    branches: [ 'main' ]
 
 jobs:
   validation:
